@@ -1,0 +1,38 @@
+<div id="main">
+    <div id="container-1" class="container">
+        <div id="container-2" class="container">
+            <div id="container-3" class="container" fusePerfectScrollbar
+                [fusePerfectScrollbarOptions]="{suppressScrollX: true, updateOnRouteChange : true}">
+                <nav class="navbar">
+                    <div class="logo">
+                        <a class="logo" href="https://expertapps.com.sa">
+                            <img src="https://expertapps.com.sa/wp-content/themes/expertapps/images/expert-apps-logo-color.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="nav-link">
+                        <ul>
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Solutions</li>
+                            <li>Our Team</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- / TOOLBAR: Below static -->
+
+                <!-- CONTENT -->
+                <content></content>
+                <!-- / CONTENT -->
+                <footer></footer>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- QUICK PANEL -->
+<fuse-sidebar name="quickPanel" position="right" class="quick-panel">
+    <quick-panel></quick-panel>
+</fuse-sidebar>

@@ -1,0 +1,15 @@
+// Import Fuse core library
+@import "@fuse/scss/core";
+
+// Import app.theme.scss
+@import "app/app.theme";
+
+.mat-paginator-container{
+    justify-content: center!important;
+}
+div#cdk-overlay-0{
+    width: 45%;
+}
+.mat-dialog-content .mat-form-field{
+    width: 100%;
+}
